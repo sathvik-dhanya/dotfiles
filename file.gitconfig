@@ -1,0 +1,21 @@
+[core]
+        editor = "vim"
+[fetch]
+	prune = true
+[user]
+	name = 
+	email = 
+	signingKey = 
+[color]
+	ui = true
+[pull]
+	rebase = false
+	prune = true
+[push]
+	default = simple
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[tag]
+	gpgsign = true
